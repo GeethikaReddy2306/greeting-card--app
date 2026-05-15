@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import "./App.css";
 export default function App() {
     const students = [
@@ -54,7 +55,7 @@ export default function App() {
           <Card name={student.name} college={student.college} skills={student.skill}/>
         ))
       }
-   
+   <Footer/>
     </div>
   )
 }
