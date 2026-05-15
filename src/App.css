@@ -1,0 +1,8 @@
+*{
+  margin: 0%;
+}
+#navbar{
+  text-align: center;
+  padding: 45px;
+  background-color: rgb(164, 149, 149);
+}
